@@ -2,3 +2,5 @@
 
 export(IsItShortsWeather)
 export(ShouldIDryMyWashing)
+import(httr)
+import(jsonlite)

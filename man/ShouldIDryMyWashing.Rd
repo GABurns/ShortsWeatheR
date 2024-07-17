@@ -15,7 +15,7 @@ or a postal code.}
 A answer to the question 'Should I dry my washing?" for the supplied location.
 }
 \description{
-Tells me should I dry my washing in a specific location today.
+Tells me should I dry my washing in a location today.
 }
 \examples{
 \dontrun{

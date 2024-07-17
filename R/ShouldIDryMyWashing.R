@@ -1,9 +1,11 @@
 #' @title Should I Dry My Washing?
-#' @description Tells me should I dry my washing in a specific location today.
+#' @description Tells me should I dry my washing in a location today.
 #' @author Gareth Burns
 #' @param location A character string representing the location for which you want
 #' to retrieve the weather data. This can be a city name, coordinates (latitude and longitude),
 #' or a postal code.
+#' @import httr
+#' @import jsonlite
 #' @return A answer to the question 'Should I dry my washing?" for the supplied location.
 #'
 #' @examples
